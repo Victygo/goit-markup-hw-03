@@ -345,7 +345,9 @@ button:focus {
 /* #region Our Portfolio */
 .portfolio {}
 
-.ourportfolio-title {}
+.ourportfolio-title {
+    margin-bottom: 8px;
+}
 
 .portfolio-list {
     display: flex;
