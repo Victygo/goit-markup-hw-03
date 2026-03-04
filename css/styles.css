@@ -57,14 +57,14 @@ img {
     padding: 120px 0;
 }
 .section-title {
-    width: 412px;
+    max-width: 412px;
     margin: 0 auto 72px;
+    text-align: center;
 
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
     
 }
 
