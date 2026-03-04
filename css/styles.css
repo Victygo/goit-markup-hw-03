@@ -10,6 +10,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: #fff;
     color: #2e2f42;
@@ -53,7 +54,7 @@ img {
 }
 
 .section {
-    margin: 120px 0;
+    padding: 120px 0;
 }
 .section-title {
     width: 412px;
@@ -84,9 +85,9 @@ img {
 }
 
 .logo {
+    margin-right: 76px;
     display: inline-flex;
     align-items: center;
-
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 1.17;
@@ -124,6 +125,7 @@ img {
 
 button {
     font-family: inherit;
+    font-weight: 500;
     padding: 0;
     border: 1px solid transparent;
     background-color: transparent;
@@ -143,7 +145,7 @@ button:focus {
     border-bottom: 1px solid #e7e9fc;
 }
 
-header > .container {
+.header .container {
     display: flex;
     align-items: center;
 }
@@ -152,18 +154,12 @@ header > .container {
 .nav {
     display: flex;
     align-items: center;
-    flex-grow: 1;
-    justify-content: space-between;
-
+    
     font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-
 }
 
 .nav-menu {
     display: flex;
-    align-items: center;
     gap: 40px;
 }
 
@@ -181,12 +177,10 @@ header > .container {
 
 .contacts {
     display: flex;
-    align-items: center;
     gap: 40px;
-    
     margin-left: auto;
-    align-items: center;
 }
+
 
 .contacts-item {
     display: flex;
@@ -293,8 +287,6 @@ header > .container {
 
 .ourteam {
     background-color: #f4f4fd;
-    width: 100%;
-    padding: 120px 0;
 }
 
 .ourteam-title {
@@ -315,16 +307,15 @@ header > .container {
     width: calc((100% - 24px * 3) / 4);
 
     background: #fff;
+    border-radius: 0 0 4px 4px;
 }
     
 
 .ourteam-photo {}
 
 .ourteam-wrapper{
-
     border: 1px solid #e7e9fc;;
     border-top: none;
-    border-radius: 0 0 4px 4px;
 
     padding: 32px 16px;
         
@@ -357,7 +348,9 @@ header > .container {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
+    /* gap: 48px 24px */
 }
 
 .portfolio-list-item {
